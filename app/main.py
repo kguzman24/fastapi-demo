@@ -23,3 +23,7 @@ def square(a: int):
 @app.get("/data")
 def data():
     return {"Man I love data"}
+
+@app.get("/do_nothing")
+def nothing():
+    return {""}
