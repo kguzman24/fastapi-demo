@@ -26,4 +26,4 @@ def data():
 
 @app.get("/do_nothing")
 def nothing():
-    return {""}
+    return {" "}
