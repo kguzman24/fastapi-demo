@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-
+import mysql
 import mysql.connector
 from mysql.connector import Error
 from fastapi import FastAPI
