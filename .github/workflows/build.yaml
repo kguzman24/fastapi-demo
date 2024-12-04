@@ -23,7 +23,7 @@ jobs:
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v3
 
-      - name: Set up Docker Buildx
+      - name: Set up Docker Build qwx
         uses: docker/setup-buildx-action@v3
 
       - name: Login to GHCR
